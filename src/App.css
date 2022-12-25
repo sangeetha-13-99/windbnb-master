@@ -13,3 +13,12 @@
   /* text-align: center; */
   margin:2rem 2.5rem;
 }
+.footer{
+  text-align: center;
+  color:var(--typeTextColor);
+  padding:20px 0 0 0;
+}
+.footer span{
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+}
