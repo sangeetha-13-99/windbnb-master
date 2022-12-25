@@ -18,7 +18,7 @@ const InputContext=React.createContext({
 })
 
 function adultsReducerFunction(state,action){
-    if(action.type=="increment"){
+    if(action.type==="increment"){
         return {
             adults:state.adults +1
         }
@@ -30,7 +30,7 @@ function adultsReducerFunction(state,action){
     }
 }
 function childReducerFunction(state,action){
-    if(action.type=="increment"){
+    if(action.type==="increment"){
         return {
             child:state.child +1
         }
@@ -68,9 +68,9 @@ export const InputContextProvider=function(props){
     }
     function searchHandler(){
         let[city,country]=location.split(','),noOfGuest=guest,newDataobj;
-        if(city.trim()!='' && country.trim()!=''){
+        if(city.trim()!=='' && country.trim()!==''){
             newDataobj=data.filter((hotelDetail)=>{
-                if(hotelDetail.city==city.trim() && hotelDetail.country==country.trim() && noOfGuest<=hotelDetail.maxGuests){
+                if(hotelDetail.city===city.trim() && hotelDetail.country===country.trim() && noOfGuest<=hotelDetail.maxGuests){
                     return  hotelDetail;
                 }
             })

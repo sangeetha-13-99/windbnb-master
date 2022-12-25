@@ -19,7 +19,7 @@ export const ModalContextProvider=function(props){
 
     useEffect(()=>{
         window.addEventListener('scroll',function(){
-            if(this.scrollY>10 && isModal==true){
+            if(this.scrollY>10 && isModal===true){
                 setIsModal(false);
             }
         })
