@@ -1,0 +1,54 @@
+.cardWrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 20rem;
+    max-width: 21rem;
+    margin:1rem 0;
+}
+.cardImage{
+    min-width: 20rem;
+    max-width: 21rem;
+    height: 16.8rem;
+    border-radius: 24px;
+}
+.cardDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardTag{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding:7px 9px;
+    margin-right: 0.5rem;
+    border: 1px solid var(--primaryBorderColor);
+    border-radius: 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.cardType,.cardRating{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--typeTextColor);
+}
+.cardTag,.cardType{
+    display: inline-block;
+}
+.cardRating{
+    color:var(--primaryTextColor);
+}
+.cardStar{
+    width:14px;
+    margin-right:0.5rem;
+}
+.cardTitle{
+    margin:0;
+    align-self: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:var(--primaryTextColor);
+}

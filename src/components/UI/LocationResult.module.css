@@ -1,0 +1,16 @@
+.LocationWrapper{
+    padding:5px 24px;
+}
+.filteredList{
+    list-style: none;
+    padding:0;
+}
+.filteredItem{
+    padding:12px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.filteredItem >img{
+    width:10px;
+    margin-right:10px;
+}

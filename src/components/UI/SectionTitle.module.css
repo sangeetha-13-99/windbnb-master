@@ -1,0 +1,16 @@
+.filteredDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.filteredCountry{
+    font-size: 24px;
+    font-weight: 700;
+    color:var(--primaryTextColor);
+}
+.filteredStays{
+    color:var(--primaryBorderColor);
+    font-weight: 500;
+    /* font-family: 'Montserrat', sans-serif; */
+}
