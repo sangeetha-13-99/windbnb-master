@@ -18,7 +18,8 @@ concepts like :
     </ul>
 </div>
 <div>
-    you can find the live site here:https://sangeetha-jula-windbnb.netlify.app/
+    <img width="500" align="center" alt="image" src="https://user-images.githubusercontent.com/74001727/209462155-0b379bdb-7ee1-4d54-8584-50eb203af930.png">
+    <p>you can find the live site here:https://sangeetha-jula-windbnb.netlify.app/</p>
 </div>
 
 
