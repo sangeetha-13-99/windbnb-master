@@ -15,18 +15,7 @@ const ModalContext=React.createContext(
 export const ModalContextProvider=function(props){
     const [isModal,setIsModal]=useState(false);
     const [showLocationResult,setShowLocationResult]=useState(false);
-    const [showGuestResult,setShowLGuestResult]=useState(false);
-
-    useEffect(()=>{
-        window.addEventListener('scroll',function(){
-            if(this.scrollY>10 && isModal===true){
-                setIsModal(false);
-            }
-        })
-        return (()=>
-            window.removeEventListener('scroll',null)
-        )
-    }, [isModal]);
+    const [showGuestResult,setShowLGuestResult]=useState(false);  
 
     function onhideModal(){
         setIsModal(false);
